@@ -47,8 +47,18 @@
                                     <nil key="attributedText"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zAl-fp-fRp">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NKC-kd-NbD" userLabel="AccountLabel">
                                 <rect key="frame" x="22" y="391" width="358" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <color key="highlightedColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <nil key="attributedText"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zAl-fp-fRp">
+                                <rect key="frame" x="22" y="321" width="358" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
@@ -59,7 +69,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hBf-vu-brQ">
-                                <rect key="frame" x="22" y="531" width="698" height="79"/>
+                                <rect key="frame" x="22" y="583" width="698" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
@@ -140,15 +150,71 @@
                                     <action selector="ChoicebtnWithBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RL4-0k-cgW"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hWQ-YQ-0IM">
+                                <rect key="frame" x="307" y="707" width="97" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.90566851550435179" blue="0.70207470757358914" alpha="0.52675513698630139" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="10"/>
+                                <connections>
+                                    <action selector="AccountbtnWithBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fvt-SX-Q4m"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7A-SQ-8Go">
+                                <rect key="frame" x="410" y="707" width="97" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.90566851550435179" blue="0.70207470757358914" alpha="0.52675513698630139" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="20"/>
+                                <connections>
+                                    <action selector="AccountbtnWithBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LF1-Qp-CJr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qSt-AS-FpE">
+                                <rect key="frame" x="514" y="707" width="97" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.90566851550435179" blue="0.70207470757358914" alpha="0.52675513698630139" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="30"/>
+                                <connections>
+                                    <action selector="AccountbtnWithBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2qE-1v-tAm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Bs-pj-Xdq">
+                                <rect key="frame" x="618" y="707" width="97" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.90566851550435179" blue="0.70207470757358914" alpha="0.52675513698630139" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="50"/>
+                                <connections>
+                                    <action selector="AccountbtnWithBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1J7-ti-1Zu"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="나의 자금(단위 : 천만원)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gzh-xt-qXc">
+                                <rect key="frame" x="307" y="653" width="408" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7nT-my-mIz" userLabel="Change Label">
+                                <rect key="frame" x="22" y="519" width="358" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <color key="highlightedColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <nil key="attributedText"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <variation key="heightClass=regular-widthClass=regular">
                             <mask key="subviews">
                                 <include reference="TTA-6q-RHe"/>
+                                <include reference="7nT-my-mIz"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="AccountLabel" destination="NKC-kd-NbD" id="9Ws-cm-DbJ"/>
+                        <outlet property="ChangeLabel" destination="7nT-my-mIz" id="sg8-Ra-Fwc"/>
                         <outlet property="DisplayLabel" destination="hBf-vu-brQ" id="rQc-HR-Akn"/>
                         <outlet property="DistanceLabel" destination="zAl-fp-fRp" id="GeY-gi-ZlR"/>
                         <outlet property="PriceLabel" destination="jGs-bm-E2O" id="ESy-4Q-4gk"/>

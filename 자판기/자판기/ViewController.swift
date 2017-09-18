@@ -25,11 +25,15 @@ class ViewController: UIViewController {
     var spacename: String = ""
     var distance: String = ""
     var type: String = ""
-    
+    var acoount: Int = 0
+    var money: Int = 0
+    var change: Int = 0
     
     @IBOutlet var DisplayLabel: UILabel!
     @IBOutlet weak var PriceLabel: UILabel!
     @IBOutlet weak var DistanceLabel: UILabel!
+    @IBOutlet weak var AccountLabel: UILabel!
+    @IBOutlet weak var ChangeLabel: UILabel!
     @IBAction func Choicebtn(btn: UIButton)
     {
         spacename = (btn.titleLabel?.text!)!
@@ -62,6 +66,12 @@ class ViewController: UIViewController {
         }
         DisplayLabel.text = type
     }
+    @IBAction func Accountbtn(btn: UIButton)
+    {
+        money = Int((btn.titleLabel?.text)!)!
+        acoount += money * 10000000
+        AccountLabel.text = String(acoount)
+    }
     @IBAction func Dicisionbtn(btn: UIButton)
     {
         if DisplayLabel.text == ""
@@ -80,6 +90,8 @@ class ViewController: UIViewController {
                     DisplayLabel.text = "가까운 달은 갈만하죠. 아직 주인이 없으므로 밟으면 내땅입니다. 화이팅~!"
         }
         totalprice = celestialprice + typeprice
+        change = acoount - totalprice
+        ChangeLabel.text = String(change)
         PriceLabel.text = (String(totalprice) + "원")
     }
     @IBAction func Returnbtn(btn: UIButton)
